@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Consle Output.xcodeproj">
+      location = "self:/Users/cber6181/C++/Consle Output/Consle-Output.xcodeproj">
    </FileRef>
 </Workspace>

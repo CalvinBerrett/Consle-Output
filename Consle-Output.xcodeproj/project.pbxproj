@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A2DDB335201A73DE00A4A09A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2DDB334201A73DE00A4A09A /* main.cpp */; };
+		A2DDB33E201A742900A4A09A /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2DDB33C201A742900A4A09A /* Controller.cpp */; };
+		A2DDB340201A743400A4A09A /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2DDB33F201A743400A4A09A /* Runner.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +24,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A2DDB331201A73DE00A4A09A /* Consle Output */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Consle Output"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2DDB334201A73DE00A4A09A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A2DDB331201A73DE00A4A09A /* Consle-Output */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Consle-Output"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DDB33C201A742900A4A09A /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		A2DDB33D201A742900A4A09A /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		A2DDB33F201A743400A4A09A /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +52,7 @@
 		A2DDB332201A73DE00A4A09A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A2DDB331201A73DE00A4A09A /* Consle Output */,
+				A2DDB331201A73DE00A4A09A /* Consle-Output */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,17 +60,27 @@
 		A2DDB333201A73DE00A4A09A /* Consle Output */ = {
 			isa = PBXGroup;
 			children = (
-				A2DDB334201A73DE00A4A09A /* main.cpp */,
+				A2DDB33B201A741A00A4A09A /* Controller */,
 			);
 			path = "Consle Output";
+			sourceTree = "<group>";
+		};
+		A2DDB33B201A741A00A4A09A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2DDB33C201A742900A4A09A /* Controller.cpp */,
+				A2DDB33D201A742900A4A09A /* Controller.hpp */,
+				A2DDB33F201A743400A4A09A /* Runner.cpp */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A2DDB330201A73DE00A4A09A /* Consle Output */ = {
+		A2DDB330201A73DE00A4A09A /* Consle-Output */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A2DDB338201A73DE00A4A09A /* Build configuration list for PBXNativeTarget "Consle Output" */;
+			buildConfigurationList = A2DDB338201A73DE00A4A09A /* Build configuration list for PBXNativeTarget "Consle-Output" */;
 			buildPhases = (
 				A2DDB32D201A73DE00A4A09A /* Sources */,
 				A2DDB32E201A73DE00A4A09A /* Frameworks */,
@@ -77,9 +90,9 @@
 			);
 			dependencies = (
 			);
-			name = "Consle Output";
+			name = "Consle-Output";
 			productName = "Consle Output";
-			productReference = A2DDB331201A73DE00A4A09A /* Consle Output */;
+			productReference = A2DDB331201A73DE00A4A09A /* Consle-Output */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -97,7 +110,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A2DDB32C201A73DE00A4A09A /* Build configuration list for PBXProject "Consle Output" */;
+			buildConfigurationList = A2DDB32C201A73DE00A4A09A /* Build configuration list for PBXProject "Consle-Output" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +122,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A2DDB330201A73DE00A4A09A /* Consle Output */,
+				A2DDB330201A73DE00A4A09A /* Consle-Output */,
 			);
 		};
 /* End PBXProject section */
@@ -119,7 +132,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2DDB335201A73DE00A4A09A /* main.cpp in Sources */,
+				A2DDB33E201A742900A4A09A /* Controller.cpp in Sources */,
+				A2DDB340201A743400A4A09A /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,7 +262,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A2DDB32C201A73DE00A4A09A /* Build configuration list for PBXProject "Consle Output" */ = {
+		A2DDB32C201A73DE00A4A09A /* Build configuration list for PBXProject "Consle-Output" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DDB336201A73DE00A4A09A /* Debug */,
@@ -257,7 +271,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A2DDB338201A73DE00A4A09A /* Build configuration list for PBXNativeTarget "Consle Output" */ = {
+		A2DDB338201A73DE00A4A09A /* Build configuration list for PBXNativeTarget "Consle-Output" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A2DDB339201A73DE00A4A09A /* Debug */,
